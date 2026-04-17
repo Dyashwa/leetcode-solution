@@ -1,82 +1,87 @@
 # 🧠 LeetCode Solutions
 
-This repository contains my daily LeetCode practice focused on building strong problem-solving skills and mastering patterns for coding interviews.
+**“Daily LeetCode grind — building logic, one problem at a time.”**
+
+This repository contains my daily LeetCode practice focused on mastering Data Structures, Algorithms, and problem-solving patterns for technical interviews.
 
 ---
 
-## 📅 Day 1: Two Sum
+## 📊 Progress Tracker
 
-### 🔹 Problem Statement
-
-Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
-
-* Each input has exactly one solution
-* You may not use the same element twice
-* Return the answer in any order
+| Day | Problem         | Difficulty | Approach    | Pattern     | Link                                   |
+| --- | --------------- | ---------- | ----------- | ----------- | -------------------------------------- |
+| 1   | Two Sum         | Easy       | Brute Force | Array       | [View](arrays/two-sum.md)              |
+| 2   | Add Two Numbers | Medium     | Simulation  | Linked List | [View](linked-list/add-two-numbers.md) |
 
 ---
 
-### 🔹 Example
-
-**Input:**
+## 📂 Folder Structure
 
 ```
-nums = [2,7,11,15], target = 9
-```
-
-**Output:**
-
-```
-[0,1]
-```
-
----
-
-### 🔹 Approach
-
-#### 🧩 Brute Force Approach
-
-* Iterate through each element using a loop
-* For every element, check all remaining elements
-* If the sum equals the target, return their indices
-
-#### 💡 Key Idea:
-
-Check all possible pairs `(i, j)` such that:
-
-```
-nums[i] + nums[j] == target
+leetcode-solutions/
+│── README.md
+│
+├── arrays/
+│    ├── two-sum.c
+│    └── two-sum.md
+│
+├── linked-list/
+│    ├── add-two-numbers.c
+│    └── add-two-numbers.md
+│
+├── strings/
+├── hashmap/
+├── two-pointers/
+├── sliding-window/
+├── recursion/
+├── dynamic-programming/
 ```
 
 ---
 
-### 🔹 Algorithm
+## 🎯 Goals
 
-1. Loop through array with index `i`
-2. For each `i`, loop through remaining elements with index `j`
-3. If:
-
-   ```
-   nums[i] + nums[j] == target
-   ```
-
-   return `[i, j]`
+* Solve **1 problem every day**
+* Focus on **understanding patterns**
+* Improve **time & space complexity**
+* Build **interview-ready problem-solving skills**
 
 ---
 
-### 🔹 Complexity Analysis
+## 🧩 Approach Strategy
 
-* **Time Complexity:** `O(n²)`
-* **Space Complexity:** `O(1)`
+For each problem, I follow:
+
+1. Understand the problem clearly
+2. Try brute force solution
+3. Optimize using better data structures
+4. Analyze time & space complexity
+5. Document learnings
 
 ---
 
-### 🔹 Learnings
+## 🏷️ Common Patterns
 
-* Importance of checking all pairs in brute force
-* Understanding time complexity trade-offs
-* Memory allocation using `malloc` in C
-* Why returning local arrays is unsafe
+* Arrays
+* Hashing
+* Linked List
+* Two Pointers
+* Sliding Window
+* Recursion
+* Dynamic Programming
+
+---
+
+## 🚀 How to Use This Repo
+
+* Each problem includes:
+
+  * ✅ Problem statement
+  * ✅ Approach explanation
+  * ✅ Code implementation
+  * ✅ Complexity analysis
+
+* Click on **View** to explore detailed solutions
 
 ---
 

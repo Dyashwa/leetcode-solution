@@ -8,11 +8,14 @@ This repository contains my daily LeetCode practice focused on mastering Data St
 
 ## 📊 Progress Tracker
 
+## 📊 Progress Tracker
+
 | Day | Problem | Difficulty | Approach | Pattern | Link |
 |-----|--------|-----------|----------|---------|------|
 | 1 | Two Sum | Easy | Brute Force | Array | [View](arrays/two-sum.md) |
 | 2 | Add Two Numbers | Medium | Simulation | Linked List | [View](linked-list/add-two-numbers.md) |
 | 3 | Palindrome Number | Easy | Half Reverse | Math | [View](math/palindrome-number.md) |
+| 4 | Roman to Integer | Easy | Greedy (Left-to-Right Scan) | String | [View](strings/roman-to-integer.md) |
 
 ---
 

@@ -16,6 +16,7 @@ This repository contains my daily LeetCode practice focused on mastering Data St
 | 2 | Add Two Numbers | Medium | Simulation | Linked List | [View](linked-list/add-two-numbers.md) |
 | 3 | Palindrome Number | Easy | Half Reverse | Math | [View](math/palindrome-number.md) |
 | 4 | Roman to Integer | Easy | Greedy (Left-to-Right Scan) | String | [View](strings/roman-to-integer.md) |
+| 5 | Longest Common Prefix | Easy | Vertical Scanning | String | [View](strings/longest-common-prefix.md) |
 
 ---
 
